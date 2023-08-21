@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+   <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+   <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+   <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+ 
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+   <link rel="stylesheet" href="css/styles.css">
+   <title>Document</title>
+   <script>
+      
+      
+      $(document).ready(function () {
+
+
+
+
+        
+
+
+         $(".menu-icon").on("click", function () {
+            $("nav ul").toggleClass("showing");
+         });
+
+
+
+
+          $("#action-card1").mouseenter(function(){
+            $("#action-card1").removeClass("shadow");
+            $("#action-card1").addClass("shadow-lg");
+         });
+          $("#action-card1").mouseleave(function(){
+            $("#action-card1").removeClass("shadow-lg");
+            $("#action-card1").addClass("shadow");
+         });
+
+
+
+          $("#action-card2").mouseenter(function(){
+            $("#action-card2").removeClass("shadow");
+            $("#action-card2").addClass("shadow-lg");
+         });
+          $("#action-card2").mouseleave(function(){
+            $("#action-card2").removeClass("shadow-lg");
+            $("#action-card2").addClass("shadow");
+         });
+
+
+
+          $("#action-card3").mouseenter(function(){
+            $("#action-card3").removeClass("shadow");
+            $("#action-card3").addClass("shadow-lg");
+         });
+          $("#action-card3").mouseleave(function(){
+            $("#action-card3").removeClass("shadow-lg");
+            $("#action-card3").addClass("shadow");
+         });
+
+
+
+          $("#city-image1").mouseenter(function(){
+            $("#city-image1").addClass("shadow-lg");
+            
+         });
+          $("#city-image13").mouseleave(function(){
+            $("#city-image13").removeClass("shadow-lg");
+         
+         });
+
+
+          $("#city-image2").mouseenter(function(){
+            $("#city-image1").addClass("shadow-lg");
+            
+         });
+          $("#city-image13").mouseleave(function(){
+            $("#city-image13").removeClass("shadow-lg");
+         
+         });
+
+
+
+          $("#city-image1").mouseenter(function(){
+            $("#city-image1").addClass("shadow-lg");
+            
+         });
+          $("#city-image13").mouseleave(function(){
+            $("#city-image13").removeClass("shadow-lg");
+         
+         });
+          
+
+         
+
+         
+
+
+
+
+
+
+
+
+
+
+      });
+ 
+
+      $(window).on("scroll", function () {
+         if ($(window).scrollTop()) {
+            $('nav').addClass('black');
+         }
+
+         else {
+            $('nav').removeClass('black');
+         }
+      });
+
+
+    
+
+
+
+     
+   </script>
+</head>
+
+<body>
+   <section class="navigation-bar ">
+      <header>
+         <nav class="navbar-fixed-top">
+            <div class="menu-icon">
+               <i class="fa fa-bars fa-2x"></i>
+            </div>
+            <div class="logo">
+               TravelIndia.com
+            </div>
+            <div class="menu">
+               <ul>
+                  <li><a href="/" class="nav-link">Home</a></li>
+                  <li><a href="#about-website" class="nav-link">About</a></li>
+                  <li><a href="#get-in-touch" class="nav-link">Get In Touch</a></li>
+                  <li><a href="#footer" class="nav-link">Contact Us</a></li>
+                  <li><a href="/logout" class="nav-link">Log Out</a></li>
+
+               </ul>
+            </div>
+         </nav>
+         <div class="my-search">
+
+            <div class="row height d-flex justify-content-center align-items-center">
+
+               <div class="col-md-8">
+               <form action="/intermediate" method="post">
+                  <div class="search">
+                     <i class="fa fa-search"></i>
+                     <input type="text" class="form-control" placeholder="Where would you want to travel?" name="search">
+                     <button class="btn btn-primary">Search</button>
+                  </div>
+               </form>
+
+               </div>
+
+            </div>
+         </div>
+      </header>
+   </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <section class="features">
+
+     <h1 class="features-heading" data-aos="fade-up">Our Services</h1>
+
+     
+         <div class="card mycard shadow p-3 mb-5 bg-white rounded" id="action-card1" style="width: 18rem;" data-aos="fade-up" data-aos-duration="1000">
+            <h1>Hotels</h1>
+            <br>
+            <br>
+            <br>
+          <div class="card-body">
+            <p class="card-text">Our travel website offers a comprehensive hotel search service to simplify your accommodation booking process. With our intuitive interface and extensive database of hotels, finding the perfect place to stay has never been more convenient.</p>
+          </div>
+          <span class="circle-before"></span>
+       </div>
+
+     
+
+      <div class="card mycard shadow p-3 mb-5 bg-white rounded" id="action-card2" style="width: 18rem;" data-aos="fade-up" data-aos-duration="1000">
+           <h1>Flights</h1>
+           <br>
+           <br>
+           <br>
+         <div class="card-body">
+           <p class="card-text">Our travel website offers comprehensive flight search services designed to make your travel planning effortless and efficient. With our user-friendly interface and powerful search engine, finding the perfect flight for your journey has never been easier..</p>
+         </div>
+         <span class="circle-before"></span>
+      </div>
+
+      
+      <div class="card mycard shadow p-3 mb-5 bg-white rounded" id="action-card3" style="width: 18rem;" data-aos="fade-up" data-aos-duration="1000">
+           <h1>Reviews</h1>
+           <br>
+           <br>
+           <br>
+         <div class="card-body">
+           <p class="card-text">At our travel website, we value the power of reviews and strive to provide an extensive collection of reliable and helpful feedback from fellow travelers. Our platform features a robust review system that allows users to share their experiences.</p>
+         </div>
+         <span class="circle-before"></span>
+      </div>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="about-website">
+   <h1>About Us</h1>
+   <br>
+   <p>At TravelIndia.com, we believe that travel is not just about visiting destinations; it's about embracing a way of life. India, with its kaleidoscope of experiences, has something for every traveler. Our platform is designed to cater to your individual interests, whether you're seeking spiritual enlightenment in the sacred temples of Varanasi, embarking on a wildlife safari in the dense jungles of Ranthambore, or discovering the architectural marvels of ancient cities like Jaipur and Agra.
+
+      We take pride in being your go-to resource for all things India travel-related. Our team of seasoned travel experts meticulously curates the best itineraries, handpicks accommodations that offer comfort and authenticity, and partners with reliable local guides who bring the stories of India to life. From adventure enthusiasts and history buffs to food lovers and wellness seekers, we strive to create personalized experiences that cater to your unique travel preferences.
+      
+      Beyond the practical aspects of planning your trip, TravelIndia.com is a community of like-minded explorers. Join our vibrant community of travelers, where you can share your experiences, seek advice, and connect with fellow wanderers who share the same passion for India's rich heritage and extraordinary landscapes.
+      
+      We invite you to embark on a transformative journey with TravelIndia.com as your trusted companion. Let us unlock the secrets of this magnificent country, unveiling its hidden treasures and introducing you to the warmth and hospitality of its people. Immerse yourself in the vibrant tapestry of India, where ancient traditions coexist with modern marvels, and every corner has a story to tell. Start your adventure with us and discover the magic that awaits in every step you take across this captivating land.
+      </p>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="reviews">
+   <h1 class="testimonial-heading">Our Testimonials</h1>
+   <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000" data-pause="hover" >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+         <img class="feature-image" src="images/user.png" class="d-block w-100" alt="...">
+          <h2>Brilliant website<br>
+            Hotel search has never been so easy</h2>
+          
+        </div>
+        <div class="carousel-item">
+         <img class="feature-image" src="images/user.png" class="d-block w-100" alt="...">
+         <h2>Nice user interface<br>
+           the website is having a Brilliant ui</h2>
+        </div>
+        <div class="carousel-item">
+         <img class="feature-image" src="images/user.png" class="d-block w-100" alt="...">
+          <h2>Only 100% reviews<br>
+            the reviews helps a lot while selecting a city
+         </h2>
+        </div>
+      </div>
+    </div>
+
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="get-in-touch">
+   <div id="booking" class="section">
+		<div class="section-center">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-7 col-md-push-5">
+						<div class="booking-cta">
+							<h1>Get in touch with us</h1>
+							
+						</div>
+					</div>
+					<div class="col-md-4 col-md-pull-7">
+						<div class="booking-form">
+							<form>
+								<div class="form-group">
+									<span class="form-label">Your Name</span>
+									<input class="form-control" type="text" placeholder="Enter your name">
+								</div>
+								<div class="row">
+									<div class="col-sm-6">
+										<div class="form-group">
+											<span class="form-label">Your email</span>
+											<input class="form-control" type="email" required>
+										</div>
+									</div>
+									<div class="col-sm-6">
+										<div class="form-group">
+											<span class="form-label">Your mobile number</span>
+											<input class="form-control" type="text" required>
+										</div>
+									</div>
+								</div>
+								
+								<div class="form-btn">
+									<button class="submit-btn">Submit</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+
+
+
+<section id="footer">
+   <h2 class="footer-heading">Contact Us</h2>
+   <div class="row">
+     <div class="col-lg-4 footer-col">
+       <a href="https://twitter.com/home" target="_blank" class="footer-icon"><i class="fa-brands fa-square-twitter"></i> Twitter</a>
+
+     </div>
+     <div class="col-lg-4 footer-col">
+       <a href="https://www.instagram.com/" target="_blank" class="footer-icon"><i class="fa-brands fa-instagram"></i> Instagram</a>
+     </div>
+     <div class="col-lg-4 footer-col">
+       <a href="https://www.facebook.com/campaign/landing.php?campaign_id=14884913640&extra_1=s%7Cc%7C550525804791%7Cb%7Cfacebook%20%27%7C&placement=&creative=550525804791&keyword=facebook%20%27&partner_id=googlesem&extra_2=campaignid%3D14884913640%26adgroupid%3D128696220912%26matchtype%3Db%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-327195741349%26loc_physical_ms%3D9040182%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gclid=CjwKCAiAlp2fBhBPEiwA2Q10D_pk1A56XSD2txCh4GhASDuREZ7vzO-BHJQIMv8MFawZLIacCCuh_BoCvGgQAvD_BwE" target="_blank" class="footer-icon"><i class="fa-brands fa-facebook-f"></i> Facebook</a>
+     </div>
+     </div>
+     <p class="footerpara">@ Copyright 2023 TravelIndia.com</p>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <script>
+      AOS.init();
+   </script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+   integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+   crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

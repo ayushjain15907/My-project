@@ -1,0 +1,99 @@
+.my-nav-items{
+    margin-left:60rem ;
+    
+}
+.pricebutton{
+    display: none;
+}
+.card{
+    padding: 5%;
+    margin:5%;
+
+
+    transition:background-color 0.7s;
+   
+}
+.details-image{
+    height: 200px;
+    width: 200px;
+}
+.flight-image{
+    display: inline-block;
+}
+.check-image{
+    position: relative;
+    height: 60px;
+    width: 60px;
+    top: 4rem;
+    z-index: 1;
+    right: -14rem;
+    display: none;
+}
+
+
+#details{
+    margin-top:0;
+    background-color: #F9F5E7;
+    padding:2% 5% 5% 5%;
+    position: relative;
+    z-index: 1;
+
+}
+.navbar-brand{
+    margin-left:5rem;
+    color: white !important;
+}
+
+.my-nav{
+    background-color: teal;
+}
+.nav-link{
+    color: white !important;
+}
+.city-display{
+    width: 100%;
+    height: 70vh;
+}
+.header-head{
+    position: relative;
+    top: -4rem;
+    z-index: 0;
+    right: -1rem;
+    color: white;
+}
+.city-heading{
+    text-align: center;
+}
+#about-the-city{
+    background-image: url("https://img.freepik.com/free-vector/mandala-illustration_53876-75291.jpg?w=900&t=st=1684778290~exp=1684778890~hmac=c20c5274709d349309003eb7637b611c1720aebed0e40ecd8711e6783a50fd46");
+    padding-top: 3rem;
+    padding-left: 0.5rem;
+    padding-right: 2rem;
+}
+.all-images{
+    display: none;
+}
+.all-hotels{
+    display: none;
+}
+.all-flights{
+    display: none;
+}
+.all-reviews{
+    display: none;
+}
+#info{
+    text-align: center;
+   
+}
+.my-toast{
+    display: none;
+}
+.flight-toast{
+    display: none;
+}
+
+.toast-body{
+   background-color: blue;
+   color: white;
+}

@@ -1,0 +1,471 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+body {
+    font-family: "Helvetica Neue",sans-serif;
+    font-weight: lighter;
+    background-image: url("https://images.alphacoders.com/593/593195.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.nav-link{
+    transition: 1s color;
+}
+.navigation-bar{
+    position:relative;
+}
+.nav-link:hover{
+    color:greenyellow;    
+   
+}
+.search{
+    position: relative;
+    box-shadow: 0 0 40px rgba(51, 51, 51, .1);
+      
+    }
+
+    .search input{
+
+     height: 60px;
+     text-indent: 25px;
+     border: 2px solid #d6d4d4;
+
+
+    }
+
+
+    .search input:focus{
+
+     box-shadow: none;
+     border: 2px solid blue;
+
+
+    }
+
+    .search .fa-search{
+
+     position: absolute;
+     top: 20px;
+     left: 16px;
+
+    }
+
+    .search button{
+
+     position: absolute;
+     top: 5px;
+     right: 5px;
+     height: 50px;
+     width: 110px;
+     background: blue;
+
+    }
+
+#about-website{
+    background-image:url("https://images.alphacoders.com/591/591235.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    padding-right: 2rem;
+    padding-left: 2rem;
+    text-align: center;
+    padding-top: 9rem;
+    margin-bottom: 0px;
+    padding-bottom: 7rem;
+    position: relative;
+    top: 0rem;
+    color: #F9F5E7;
+    font-size: large;
+    font-family: 'DM Sans', sans-serif;
+}
+
+
+.cities{
+
+    margin-top: 5rem;
+    position: relative;
+    z-index: 0;
+}
+
+.feature-image{
+    height: 7rem;
+    width: 7rem;
+    margin-bottom: 3rem;
+}
+.reviews{
+    position: relative;
+    padding-top: 6rem;
+    padding-bottom: 28rem;
+    height: 25rem;
+    top: 0rem;
+    bottom: 0rem;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+.city-name{
+    margin-top: 1.5rem;
+   position: relative;
+   left:2rem;
+}
+.reviews{
+    margin-top:0rem;
+}
+
+
+.testimonial-heading{
+margin-bottom:2rem;
+}
+
+.cities-heading{
+    text-align: center;
+}
+
+#get-in-touch{
+    margin-top: 0rem;
+}
+.city-image{
+    height: 15rem;
+
+}
+.city-header{
+    height: 15vh;
+    background-image:none;
+    background-color:teal;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://images3.alphacoders.com/853/853174.jpg");
+    background-size: cover;
+}
+.my-nav{
+    position: absolute;
+   z-index: 1;
+}
+.mycard{
+    margin-top: 10rem;
+    margin-right: 4rem;
+    margin-left: 8rem;
+}
+
+.card{
+    display: inline-block;
+}
+.my-search{
+   position: relative;
+   top: 30rem;
+   z-index: 0;
+   
+}
+.evenText{
+    text-align: left;
+}
+.oddText{
+    text-align: right;
+}
+.imageEven{
+    width:25%;
+    float: left;
+    margin-right:30px;
+}
+.imageOdd{
+    width:25%;
+    float: left;
+    margin-right:30px;
+}
+.features{
+    background-image: url("https://www.creativehatti.com/wp-content/uploads/edd/2021/05/India-vector-skyline-02-large.jpg");
+    padding-bottom: 5rem;
+    padding-top: 2rem;
+    position: relative;
+    z-index: 0;
+}
+.features-heading{
+    text-align: center;
+    margin-top:3.2rem;
+}
+.navigation-bar {
+    position: relative;
+    z-index: 1;
+
+}
+.my-search{
+    position: relative;
+    z-index: 0;
+}
+
+.logo {
+    line-height: 60px;
+    position: fixed;
+    float: left;
+    margin: 16px 46px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    line-height: 60px;
+}
+.city-navigation-bar{
+    position: relative;
+    height: 10px;
+    background-color: #000;
+}
+
+nav ul {
+    line-height: 60px;
+    list-style: none;
+    background: rgba(0, 0, 0, 0);
+    overflow: hidden;
+    color: #fff;
+    padding: 0;
+    text-align: right;
+    margin: 0;
+    padding-right: 40px;
+    transition: 1s;
+}
+
+nav.black ul {
+    background:teal;
+}
+nav ul li {
+    display: inline-block;
+    padding: 16px 40px;;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+.menu-icon {
+    line-height: 60px;
+    width: 100%;
+    background: #000;
+    text-align: right;
+    box-sizing: border-box;
+    padding: 15px 24px;
+    cursor: pointer;
+    color: #fff;
+    display: none;
+}
+
+@media(max-width: 786px) {
+
+    .logo {
+          position: fixed;
+          top: 0;
+          margin-top: 16px;
+    }
+
+    nav ul {
+          max-height: 0px;
+          background: #000;
+    }
+
+    nav.black ul {
+          background: #000;
+    }
+
+    .showing {
+          max-height: 34em;
+    }
+
+    nav ul li {
+          box-sizing: border-box;
+          width: 100%;
+          padding: 24px;
+          text-align: center;
+    }
+
+    .menu-icon {
+          display: block;
+    }
+
+}
+.section {
+	position: relative;
+	height: 100vh;
+}
+
+.section .section-center {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	right: 0;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+#booking {
+	font-family: 'Montserrat', sans-serif;
+	background-image: url('https://wallpapercave.com/wp/wp4527540.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+#booking::before {
+	content: '';
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	background: rgba(47, 103, 177, 0.6);
+}
+
+.booking-form {
+	background-color: #fff;
+	padding: 50px 20px;
+	-webkit-box-shadow: 0px 5px 20px -5px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 5px 20px -5px rgba(0, 0, 0, 0.3);
+	border-radius: 4px;
+}
+
+.booking-form .form-group {
+	position: relative;
+	margin-bottom: 30px;
+}
+
+.booking-form .form-control {
+	background-color: #ebecee;
+	border-radius: 4px;
+	border: none;
+	height: 40px;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	color: #3e485c;
+	font-size: 14px;
+}
+
+.booking-form .form-control::-webkit-input-placeholder {
+	color: rgba(62, 72, 92, 0.3);
+}
+
+.booking-form .form-control:-ms-input-placeholder {
+	color: rgba(62, 72, 92, 0.3);
+}
+
+.booking-form .form-control::placeholder {
+	color: rgba(62, 72, 92, 0.3);
+}
+
+.booking-form input[type="date"].form-control:invalid {
+	color: rgba(62, 72, 92, 0.3);
+}
+
+.booking-form select.form-control {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+
+.booking-form select.form-control+.select-arrow {
+	position: absolute;
+	right: 0px;
+	bottom: 4px;
+	width: 32px;
+	line-height: 32px;
+	height: 32px;
+	text-align: center;
+	pointer-events: none;
+	color: rgba(62, 72, 92, 0.3);
+	font-size: 14px;
+}
+
+.booking-form select.form-control+.select-arrow:after {
+	content: '\279C';
+	display: block;
+	-webkit-transform: rotate(90deg);
+	transform: rotate(90deg);
+}
+
+.booking-form .form-label {
+	display: inline-block;
+	color: #3e485c;
+	font-weight: 700;
+	margin-bottom: 6px;
+	margin-left: 7px;
+}
+
+.booking-form .submit-btn {
+	display: inline-block;
+	color: #fff;
+	background-color: #1e62d8;
+	font-weight: 700;
+	padding: 14px 30px;
+	border-radius: 4px;
+	border: none;
+	-webkit-transition: 0.2s all;
+	transition: 0.2s all;
+}
+
+.booking-form .submit-btn:hover,
+.booking-form .submit-btn:focus {
+	opacity: 0.9;
+}
+
+.booking-cta {
+	margin-top: 80px;
+	margin-bottom: 30px;
+}
+
+.booking-cta h1 {
+	font-size: 52px;
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 700;
+}
+
+.booking-cta p {
+	font-size: 16px;
+	color: rgba(255, 255, 255, 0.8);
+}
+
+
+#footer
+{ 
+    
+    
+    background-color: #F9F5E7;
+    padding:5%;
+    text-align: center;
+
+    
+
+}
+.footer-icon{
+    font-style: none;
+    font-family: Poppins, sans-serif;
+
+}
+.footer-heading{
+    padding-bottom:3%;
+    
+    
+}
+
+.footerpara{
+    margin-top:3%;
+    
+}
+.footer-col
+{
+    text-align: center;
+}
+
+
+
